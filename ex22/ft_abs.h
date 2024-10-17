@@ -6,13 +6,13 @@
 /*   By: cade-oli <cade-oli@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 15:41:55 by cade-oli          #+#    #+#             */
-/*   Updated: 2024/10/15 16:00:14 by cade-oli         ###   ########.fr       */
+/*   Updated: 2024/10/17 20:05:38 by cade-oli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 
 # define FT_ABS_H
-# define ABS(Value)((Value) * ((Value) >= 0) - (Value) * ((Value) < 0));
+# define ABS(Value) ((Value) * ((Value) >= 0) - (Value) * ((Value) < 0))
 
 #endif
