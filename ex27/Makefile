@@ -6,13 +6,14 @@
 #    By: cade-oli <cade-oli@student.42porto.com>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/18 10:08:07 by cade-oli          #+#    #+#              #
-#    Updated: 2024/10/18 12:08:56 by cade-oli         ###   ########.fr        #
+#    Updated: 2024/10/18 13:34:17 by cade-oli         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = ft_display_file
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
+# CFLAGS += -g
 SRCS = main.c file_handler.c
 OBJS = $(SRCS:.c=.o)
 
